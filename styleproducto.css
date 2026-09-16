@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.fondo{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 20px;
+}
+.comprar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.producto img {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+}
+
+.des {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    padding: 27px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.des h1 {
+    font-size: 20px;
+    
+}
+
+.des h2 {
+    font-size: 20px;
+}
+
+.des h3 {
+    font-size: 20px;
+}
+
+.des h4 {
+    font-size: 20px;
+}
+
+.des a {
+    font-size: 45px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.des a:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+.volver a{
+    background-color: gray;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+hr{
+    width: 100%;
+    border: none;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+    .fondo{
+        margin-top: 30px;
+        margin-left: 45px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .comprar{
+        justify-content: start;
+    }
+    .producto img{
+        margin-left: 5px;
+        width: 200px;
+        height: 200px;
+    }
+    .des{
+        width: 200px;
+        height: 200px;
+        font-size: 11px;
+    }
+    .des h1, .des h2, .des h3, .des h4, .des a{
+        font-size: 20px;
+    }
+    
+}
