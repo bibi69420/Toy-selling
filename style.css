@@ -16,11 +16,12 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid rgb(228, 94, 45);
+    border: 3px solid rgb(255, 69, 2);
     width: 100%;
     flex-direction: column;
-    background-color: rgb(224, 89, 40);
+    background-color: rgb(255, 152, 116);
     border-bottom: 3px rgb(243, 137, 16) solid;
+    box-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .titulo {
